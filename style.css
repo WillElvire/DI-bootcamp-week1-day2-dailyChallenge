@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chivo Mono', monospace;
+    text-decoration: none;
+}
+
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav {
+    padding-top: 15px;
+    font-family: arial;
+    height: 40px;
+
+}
+
+
+
+#label_nav {
+    padding-left: 100px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+li {
+    display: inline;
+  }
+  li a {
+   
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+  }
+#button_nav {
+    float: right;
+    margin-right: 80px;
+}
+
+
+
+
+#image_background {
+    background: url('https://www.ed92.org/wp-content/uploads/2021/05/THOR.jpg') top center;
+    image-rendering: -webkit-optimize-contrast;
+    background-size: 100% 600px;
+    height: 600px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+
+}
+
+#label-project {
+
+    width: 900px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 250px;
+
+}
+
+#container_project {
+    background: black;
+    opacity: 0.5;
+
+}
+
+#container_project h1,p {
+    text-align: left;
+    color: white;
+    
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+
+  @media all and (max-width: 1200px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .nav {
+        background-color: black;
+        color: white;
+    
+    }
+    li {
+        color: white;
+      }
+      li a {
+        color: white;
+      }
+  }
+  @media all and (min-width: 992px){
+    .nav {
+        background-color: red;
+        color: white;
+    
+    }
+    li {
+        color: black;
+      }
+      li a {
+        color: black;
+      }
+}
+@media all and (max-width: 992px){
+    h1{
+        font-size: 25px;
+    }
+    .nav {
+        background-color: lightgreen ;
+        color: black;
+    
+    }
+    li {
+        color: black;
+      }
+      li a {
+        color: black;
+      }
+}
+@media all and (max-width: 600px){
+    h1{
+        font-size: 35px;
+
+    }
+    .nav {
+        background-color: yellow;
+        color: black;
+    
+    }
+    li {
+        color: black;
+      }
+      li a {
+        color: black;
+      }
+}
